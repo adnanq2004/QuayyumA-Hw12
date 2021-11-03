@@ -24,33 +24,6 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  // char * dir = NULL;
-  // if (argc == 2) {
-  //   dir = argv[1];
-  //   // strcpy(dir,argv[1]);
-  // }
-  // else if (argc > 2) {
-  //   printf("too many inputs, please provide fewer inputs");
-  // }
-  // else {
-  //   while (!dir) {
-  //     // scanf("please provide a valid directory: %s\n", dir);
-  //     // if (!dir) {
-  //     //   int errnum = errno;
-  //     //   // printf("there was an error:\n%s\n", perror(errno));
-  //     //   perror("there was an error");
-  //     // }
-  //     // dir = "./";
-  //     scanf("%s\n", dir);
-  //     // if (!dir) {
-  //       // printf("there was an error: %s\n", strerror(errno));
-  //       // int errnum = errno;
-  //       // perror(errnum);
-  //       // printf("there was an error:\n\n%s\n\n", errlang);
-  //     // }
-  //   }
-  // }
-
   printf("statistics for directory: %s\n\n", dir);
 
   DIR * direct1 = opendir(dir);
